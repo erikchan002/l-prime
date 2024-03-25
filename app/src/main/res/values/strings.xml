@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2021 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">L Prime</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="refresh_content_desc">Refresh</string>
+    <string name="settings_content_desc">Settings</string>
+    <string name="back_content_desc">Back</string>
+    <string name="scramble_image_content_desc">Image for the scramble %1$s</string>
+    <string name="settings_puzzle_select_chip">Scramble type: %1$s</string>
+    <string name="puzzle_select_title">Scramble Types</string>
+    <string name="scrambler_three">3x3</string>
+    <string name="scrambler_two">2x2</string>
+    <string name="scrambler_four">4x4</string>
+    <string name="scrambler_four_fast">4x4 Fast</string>
+    <string name="scrambler_five">5x5</string>
+    <string name="scrambler_six">6x6</string>
+    <string name="scrambler_seven">7x7</string>
+    <string name="scrambler_three_ni">3BLD</string>
+    <string name="scrambler_three_fm">FMC</string>
+    <string name="scrambler_clock">Clock</string>
+    <string name="scrambler_mega">Megaminx</string>
+    <string name="scrambler_pyra">Pyraminx</string>
+    <string name="scrambler_skewb">Skewb</string>
+    <string name="scrambler_sq1">Square-1</string>
+    <string name="scrambler_four_ni">4BLD</string>
+    <string name="scrambler_five_ni">5BLD</string>
+    <string name="settings_puzzle_color_select_chip">Puzzle color: %1$s</string>
+    <string name="puzzle_color_select_title">Puzzle Colors</string>
+    <string name="puzzle_color_stickerless">Stickerless</string>
+    <string name="puzzle_color_black">Black</string>
+    <string name="puzzle_color_white">White</string>
+    <string name="puzzle_color_undyed">Undyed plastic</string>
+
+</resources>

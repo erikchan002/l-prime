@@ -1,0 +1,47 @@
+[versions]
+android-gradle-plugin = "8.2.2"
+androidx-activity = "1.8.2"
+androidx-compose-bom = "2024.02.00"
+androidx-lifecycle = "2.4.1"
+androidx-test = "1.4.0"
+androidx-wear-compose = "1.3.0"
+androidx-wear-tiles = "1.1.0"
+androidx-wear-watchface = "1.0.1"
+compose-compiler = "1.5.9"
+ktlint = "0.50.0"
+org-jetbrains-kotlin = "1.9.22"
+org-jetbrains-kotlinx = "1.6.0"
+tnoodle-scrambles = "0.19.2"
+wear-tooling-preview = "1.0.0"
+horologist-compose-material = "0.6.1"
+horologist-compose-layout = "0.6.1"
+coil-svg = "2.5.0"
+coil-compose = "2.5.0"
+
+[libraries]
+android-lint-gradle = "com.android.tools.lint:lint-gradle:31.2.2"
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "androidx-compose-bom" }
+compose-compiler = { module = "androidx.compose.compiler:compiler", version.ref = "compose-compiler" }
+compose-ui-test-junit4 = { module = "androidx.compose.ui:ui-test-junit4" }
+compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
+compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+jacoco-ant = "org.jacoco:org.jacoco.ant:0.8.11"
+junit = "junit:junit:4.13.2"
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "org-jetbrains-kotlin" }
+test-espresso-core = "androidx.test.espresso:espresso-core:3.5.1"
+test-ext-junit = "androidx.test.ext:junit:1.1.5"
+wear-compose-foundation = { module = "androidx.wear.compose:compose-foundation", version.ref = "androidx-wear-compose" }
+wear-compose-material = { module = "androidx.wear.compose:compose-material", version.ref = "androidx-wear-compose" }
+material-icons-core = { group = "androidx.compose.material", name = "material-icons-core" }
+tnoodle-scrambles = { group = "org.worldcubeassociation.tnoodle", name = "lib-scrambles", version.ref = "tnoodle-scrambles" }
+androidx-wear-tooling-preview = { group = "androidx.wear", name = "wear-tooling-preview", version.ref = "wear-tooling-preview" }
+horologist-compose-layout = { group = "com.google.android.horologist", name = "horologist-compose-layout", version.ref = "horologist-compose-layout" }
+horologist-compose-material = { group = "com.google.android.horologist", name = "horologist-compose-material", version.ref = "horologist-compose-material" }
+coil-svg = { group = "io.coil-kt", name = "coil-svg", version.ref = "coil-svg" }
+coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil-compose" }
+
+[plugins]
+com-android-application = { id = "com.android.application", version.ref = "android-gradle-plugin" }
+com-diffplug-spotless = "com.diffplug.spotless:6.25.0"
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "org-jetbrains-kotlin" }
